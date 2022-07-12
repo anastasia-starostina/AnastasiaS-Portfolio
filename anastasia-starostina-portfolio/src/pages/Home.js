@@ -1,9 +1,9 @@
-import HomePage from "../components/Home/HomePage.jsx";
+import HomePage from "../components/HomePage/HomePage.jsx";
 
 
 const Home = () => {
   return (
-    <><h1>Home</h1>
+    <>
     <HomePage/>
     </> )
  
