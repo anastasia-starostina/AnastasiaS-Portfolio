@@ -6,7 +6,8 @@ nav {
     z-index: 2;
     position: fixed;
     left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateZ(-50%);
     bottom: 2rem;
     display: flex;
     gap: 0.8rem;
@@ -33,4 +34,3 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white)
 }
-

@@ -5,23 +5,15 @@ import { FaUser } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
 import {AiFillMessage} from 'react-icons/ai'
 import {RiServiceFill} from 'react-icons/ri'
-import { useState } from 'react';
 
 
 const Nav = () => {
-
-  const [activeNav, setActiveNav] = useState("#")
-
   return (
     <nav>
-      <a href="#" className={activeNav === "#" ? "active" : ""}>
+      <a href="#" className='active'>
         <AiOutlineHome />
       </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "about" ? "active" : ""}
-      >
+      <a href="#about">
         <FaUser />
       </a>
       <a href="#portfolio">
