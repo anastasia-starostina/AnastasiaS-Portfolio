@@ -9,13 +9,23 @@ const HeaderSocails = () => {
     <div className="header__socials">
       <a
         href="https://www.linkedin.com/in/anastasia-starostina-900bb2130"
-        target="_blank">
+        rel="noopener"
+        target="_blank"
+      >
         <BsLinkedin />
       </a>
-      <a href="https://github.com/anastasia-starostina" target="__blank">
+      <a
+        href="https://github.com/anastasia-starostina"
+        rel="noopener"
+        target="__blank"
+      >
         <BsGithub />
       </a>
-      <a href="https://twitter.com/ShternAnastasia" target="_blank">
+      <a
+        href="https://twitter.com/ShternAnastasia"
+        rel="noopener"
+        target="_blank"
+      >
         <BsTwitter />
       </a>
     </div>
